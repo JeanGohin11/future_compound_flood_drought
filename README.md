@@ -23,11 +23,12 @@ ran on a notebook environment such as Jupyter notebook.
 
 ## Usage
 The scripts can be used for future research in this field. To use the scripts, consider the following steps:
--The pre-processing scripts are only relevant for this specific project, and can be ignored.
--make sure to replace the data sources with your own (this is always at the beginning of scripts). For the codes to work, 
+- The pre-processing scripts are only relevant for this specific project, and can be ignored.
+- make sure to replace the data sources with your own (this is always at the beginning of scripts). For the codes to work, 
 the data should be in netCDF format, with dimensions time, lat and lon.
--The drought_flood_extraction scripts can then be run (starting with the historical), to detect drought and flood events. 
--Then, the analysis scripts can be run in any order, dependending on the goal of the analysis.
+- The drought_flood_extraction scripts can then be run (starting with the historical), to detect drought and flood events. 
+- Then, the analysis scripts can be run in any order, dependending on the goal of the analysis.
+
 
 ## Support
 For any questions on the scripts, you can send an email at jean.gohin@wur.nl.
