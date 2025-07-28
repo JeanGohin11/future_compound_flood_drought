@@ -13,7 +13,7 @@ for successive occurrences within at most 6 months. DtoF and FtoD events were fu
 and abrupt (< 30 days lag) transitions. Data is first retrieved, merged and pre-processed from the annuna (HPC) system
 (https://wiki.anunna.wur.nl/index.php/Main_Page).  Droughts and floods are first extracted with the drought_flood_extraction 
 scripts. Then, the CFD event types are detected and their characteristics (frequency, severity, seasonality, drought-flood dependence) 
-analyzed using the data_analysis scripts. The data was then summarized ad visualised using the data_visualisation_summaries scripts.
+analyzed using the data_analysis scripts. The data was then summarized and visualised using the data_visualisation_summaries scripts.
 
 ## Installation
 The extraction and analysis scripts are written in Python 3.3 language and require the installation of the following libraries: 
@@ -22,12 +22,13 @@ such as Pycharms or Visual Studio Code. The visualisation scripts require matplo
 ran on a notebook environment such as Jupyter notebook.
 
 ## Usage
-The scripts can be used for future research in this field. To use the scripts, consider the following steps:
+The scripts can be used for future research in this field. To use the scripts, follow these steps:
 - The pre-processing scripts are only relevant for this specific project, and can be ignored.
 - make sure to replace the data sources with your own (this is always at the beginning of scripts). For the codes to work, 
 the data should be in netCDF format, with dimensions time, lat and lon.
 - The drought_flood_extraction scripts can then be run (starting with the historical), to detect drought and flood events. 
 - Then, the analysis scripts can be run in any order, dependending on the goal of the analysis.
+- Finally the data_visualisation_summaries scripts can be run on a notebook environment, where the data file names should be replaced
 
 
 ## Support
