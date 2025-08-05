@@ -32,7 +32,7 @@ the data should be in netCDF format, with dimensions time, lat and lon.
 
 
 ## Support
-For any questions on the scripts, you can send an email at jean.gohin@wur.nl.
+For any questions on the scripts, you can send an email at jeangohin54@gmail.nl.
 
 ## Authors and acknowledgment
 The codes were written by Jean Gohin (master student) with the help of Generative AI for debugging and improvements,
