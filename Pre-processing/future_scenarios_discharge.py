@@ -52,9 +52,7 @@ for model, dataset in models_data_ssp585.items():
 dis_combined_ssp126 = xr.concat(dis_arrays_ssp126, dim="model")
 dis_combined_ssp370 = xr.concat(dis_arrays_ssp370, dim="model")
 dis_combined_ssp585 = xr.concat(dis_arrays_ssp585, dim="model")
-# Compute the median across models
-
-
+# chunk datasets
 dis_combined_ssp126 = dis_combined_ssp126.chunk(chunks= {"time": -1, "lon": 200, "lat": 200})
 dis_combined_ssp370 = dis_combined_ssp370.chunk(chunks={"time": -1, "lon": 200, "lat": 200})
 dis_combined_ssp585 = dis_combined_ssp585.chunk(chunks={"time": -1, "lon": 200, "lat": 200})
@@ -63,11 +61,11 @@ model_median_ssp126= dis_combined_ssp126.median(dim="model", skipna = True)
 model_median_ssp370= dis_combined_ssp370.median(dim="model", skipna = True)
 model_median_ssp585= dis_combined_ssp585.median(dim="model", skipna = True)
 
-# Save the merged dataset to a new NetCDF file
+# Save the merged datasets to a new NetCDF file
 with ProgressBar():
-    # model_median_ssp126.to_netcdf("Data/historical_model_median_dis_ssp126_2051_2100.nc")
-    # model_median_ssp370.to_netcdf("Data/historical_model_median_dis_ssp370_2051_2100.nc")
-    model_median_ssp585.to_netcdf("Data/model_median_dis_ssp585_2051_2100.nc") #save the merged dataset to a new NetCDF file
+    model_median_ssp126.to_netcdf("Data/historical_model_median_dis_ssp126_2051_2100.nc")
+    model_median_ssp370.to_netcdf("Data/historical_model_median_dis_ssp370_2051_2100.nc")
+    model_median_ssp585.to_netcdf("Data/model_median_dis_ssp585_2051_2100.nc") 
 
 
 
