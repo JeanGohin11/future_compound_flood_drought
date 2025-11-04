@@ -16,7 +16,7 @@ scripts. Then, the CFD event types are detected and their characteristics (frequ
 analyzed using the data_analysis scripts. The data was then summarized and visualised using the data_visualisation_summaries scripts.
 
 ## Installation
-The extraction and analysis scripts are written in Python 3.3 language and require the installation of the following libraries: 
+The extraction and analysis scripts are written in Python 3.11 language and require the installation of the following libraries: 
 numpy, pandas, xarray, dask, scipy, copulas, warnings. These scripts can be ran on any Integrated Development Environment (IDE) 
 such as Pycharms or Visual Studio Code. The visualisation scripts require matplotlib and seaborn and should preferably be 
 ran on a notebook environment such as Jupyter notebook.
