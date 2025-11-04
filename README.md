@@ -22,7 +22,7 @@ such as Pycharms or Visual Studio Code. The visualisation scripts require matplo
 ran on a notebook environment such as Jupyter notebook.
 
 ## Usage
-The scripts can be used for future research in this field. To use the scripts, follow these steps:
+To use the scripts, follow these steps:
 - The pre-processing scripts are only relevant for this specific project, and can be ignored.
 - make sure to replace the data sources with your own (this is always at the beginning of scripts). For the codes to work, 
 the data should be in netCDF format, with dimensions time, lat and lon.
