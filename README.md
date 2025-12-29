@@ -1,7 +1,7 @@
 # Compound Flood Droughts
 
 ## Name
-A Global Analysis of Compound Flood-Drought Events under Climate Change - Master's Thesis
+A Global Analysis of Compound Flood-Drought Events under Climate Change 
 
 ## Description
 This project consisted of analyzing a global hydrological model dataset to quantify historical and future occurrences
