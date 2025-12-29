@@ -1,4 +1,4 @@
-# Thesis_Jean_Gohin
+# Compound Flood Droughts
 
 ## Name
 A Global Analysis of Compound Flood-Drought Events under Climate Change - Master's Thesis
